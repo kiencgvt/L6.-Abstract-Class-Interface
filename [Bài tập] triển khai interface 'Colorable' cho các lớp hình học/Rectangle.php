@@ -2,15 +2,9 @@
 
 
 include_once("Shape.php");
-include_once("Resizeable.php");
 
-class Rectangle extends Shape implements Colorable
+class Rectangle extends Shape
 {
-    public function resize(float $percent)
-    {
-        return $this->calculateArea() * (1 + $percent / 100);
-    }
-
     public int $width;
     public int $height;
 
