@@ -3,7 +3,7 @@
 include_once("Shape.php");
 include_once("Resizeable.php");
 
-class Circle extends Shape implements Colorable
+class Circle extends Shape implements Resizeable
 {
     public function resize(float $percent)
     {

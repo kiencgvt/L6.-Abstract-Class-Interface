@@ -4,7 +4,7 @@
 include_once("Rectangle.php");
 include_once("Resizeable.php");
 
-class Square extends Rectangle implements Colorable
+class Square extends Rectangle
 {
     public function __construct(string $name, int $width)
     {
